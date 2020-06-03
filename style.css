@@ -1,0 +1,123 @@
+body, html {
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Inconsolata', monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 32px 16px;
+
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 820px;
+}
+
+a {
+    color: #03d3fc;
+}
+
+#terminal {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.response-container {
+    display: table;
+    position: relative;
+
+    min-height: 17px;
+    margin-bottom: 32px;
+}
+
+.response-container.user {
+    margin-left: 16px;
+    opacity: .9;
+}
+
+.response-container.user::before {
+    content: '>';
+    position: absolute;
+
+    left: -16px;
+    top: 0;
+    bottom: 0;
+
+    margin: auto;
+}
+
+.response {
+    float: left;
+
+    letter-spacing: 0px;
+}
+
+.response-container.typing {
+    opacity: .7;
+}
+
+.response-container.typing > .response::after {
+    content: '';
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    right: -14px;
+
+    margin: auto;
+
+    width: 8px;
+    height: 12px;
+
+    margin-left: 3px;
+
+    background: #FFFFFF;
+    animation: .8s carat infinite;
+}
+
+@keyframes carat {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    99% {
+        opacity: 0;
+    }
+}
+
+#buttons button {
+    display: block;
+    font-family: inherit;
+    background: transparent;
+    outline: none;
+    color: inherit;
+    
+    border: #FFFFFF solid 1px;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    padding: 12px 2px;
+    
+    margin: 8px auto;
+
+    width: 100%;
+    max-width: 650px;
+    min-width: 250px;
+}
+
+#buttons button:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, .05);
+}
