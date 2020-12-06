@@ -1,6 +1,7 @@
 # BLM Resource Aggregate
 
-You can view the project [by clicking here](https://ridarf.github.io/blm-resource-aggregation/).
+[You can view the mobile experience by clicking here](https://ridarf.github.io/blm-resource-aggregation/).
+
 This was something I threw together on the morning of the Blackout Tuesday which was a movement to support African-Americans.
 
 It is a console-style aggregation of resources for supporters to donate, find petitions, or view information about recorded abuse cases.
