@@ -1,20 +1,11 @@
 # BLM Resource Aggregate
 
-A console-style aggregation of resources which could be used by members of the Black Lives Matter movement to find petitions, places to donate, and [TBA] resources for more information on the movement. 
+You can view the project [by clicking here](https://ridarf.github.io/blm-resource-aggregation/).
+This was something I threw together on the morning of the Blackout Tuesday which was a movement to support African-Americans.
 
-It was designed by Rida Fakih, and is a mobile experience.
+It is a console-style aggregation of resources for supporters to donate, find petitions, or view information about recorded abuse cases.
+It was designed by Rida Fakih, and **is a modern mobile experience.**
 
 Changes can, and should be suggested to Rida Fakih via [Instagram](https://instagram.com/rida.rf).
-```
-Feel free to share resources without credit.
-Report content you feel doesn't belong here to my Instagram.
 
-It's important to note these resources were not individually vetted.
-Resources were pulled using online scraping scripts, and were sampled, not tested.
-
-This is simply an aggregation of resources found online.
-Any content on any of the resources provided do not reflect
-any personal political opinions.
-
-Thank you.
-```
+![Console-Styled Website](https://i.imgur.com/KBWrdnO.png)
