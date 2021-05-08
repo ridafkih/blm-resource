@@ -1,6 +1,6 @@
 # BLM Resource Aggregate
 
-[You can view the mobile experience by clicking here](https://ridarf.github.io/blm-resource-aggregation/).
+[You can view the mobile experience by clicking here](https://rida.dev/blm-resource/).
 
 This was something I threw together on the morning of the Blackout Tuesday which was a movement to support African-Americans.
 
